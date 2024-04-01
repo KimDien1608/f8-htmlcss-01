@@ -67,7 +67,7 @@ a {
 
 .hero-wrap {
     display: flex;
-    align-items: center;
+    align-item: center;
     position: relative;
     background-color: #e6f0ff;
     /* height: 100vh; */
