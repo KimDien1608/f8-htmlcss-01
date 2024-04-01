@@ -16,7 +16,8 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -65,6 +66,8 @@ a {
 }
 
 .hero-wrap {
+    display: flex;
+    align-items: center;
     position: relative;
     background-color: #e6f0ff;
     /* height: 100vh; */
@@ -111,10 +114,6 @@ a {
 }
 
 /* =============== Hero =============== */
-.hero {
-    padding-top: 130px;
-}
-
 .hero .info {
     width: 51%;
 }
